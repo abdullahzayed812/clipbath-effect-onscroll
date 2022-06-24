@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <h1 class="title">Scroll To See Magic...!</h1>
+  <section></section>
+  <article class="text">
+    <h2>Here is section raise some lorem text</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut magni vel ullam, ea quos provident voluptates, laboriosam doloremque debitis animi at eveniet modi alias culpa suscipit perferendis enim. Vel molestiae obcaecati voluptates! Aliquid, ea totam? Impedit, magnam. Tempora, praesentium ut? Iste illo eveniet fuga eligendi eum possimus veritatis in dicta sit, unde esse totam tenetur adipisci doloremque aliquam voluptatibus id iure reiciendis error, cupiditate minus fugiat quasi! Veniam officiis esse cupiditate doloremque tempore! Soluta minima rem maiores assumenda aliquid nobis, asperiores dolorum et, itaque consequatur dolores sequi harum illo sint officiis cupiditate nesciunt perspiciatis aliquam quam corporis expedita ad tempore. Consequuntur iusto id placeat unde dolor quasi dolore maiores nihil corporis, libero quae illo maxime qui repudiandae, ducimus animi ex illum hic culpa officia possimus impedit quod amet iste. Nemo voluptas sit, recusandae delectus hic harum perferendis exercitationem quia rem amet, provident error autem dolore pariatur consequuntur blanditiis voluptatem dolorem.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur incidunt libero ipsum aut doloribus repellendus pariatur suscipit qui sunt error facere vero aliquam exercitationem modi, at dignissimos recusandae, nisi tempora et itaque quos numquam expedita! Nisi accusantium perspiciatis dolorum nobis alias sint fugit ipsa quis autem itaque, quos aliquid quod nihil voluptas magnam, labore non reiciendis eligendi omnis culpa molestias, expedita fugiat! Perferendis exercitationem repellendus earum culpa autem eum quae sit neque sed corrupti aut vero, odio deserunt possimus facilis ad nobis. Aperiam quam quo, reprehenderit accusamus alias atque nihil magni ab ut eius illo, voluptas, mollitia repellendus deserunt quos dicta minus? Inventore culpa reprehenderit accusamus iusto autem dignissimos, dolores error iure, saepe tempora modi nam dolorum accusantium quasi sapiente repellat esse vitae rerum cumque. Omnis expedita nam voluptatum commodi, quam itaque harum dolore eius vitae qui impedit fugiat deserunt pariatur voluptatem. Porro, sint? Nostrum aut repellat ea tempora at?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odit possimus at deserunt iusto aperiam quis, nobis nam aliquid magni laudantium repellat debitis neque alias quae quas soluta earum. In porro obcaecati sapiente perferendis corrupti at distinctio alias iure facere ut impedit, sunt, doloribus accusamus illum quibusdam tempora ea, hic totam veniam? Laboriosam corrupti odio distinctio eius sequi maxime vero nihil vitae in alias deleniti excepturi commodi soluta quibusdam molestias nesciunt eos, ex nisi placeat voluptatem quo iste aut modi? Doloremque ullam, quisquam dignissimos nihil neque repudiandae totam iure labore maiores molestiae earum odit deleniti, deserunt aspernatur! Sequi, numquam tempora beatae reprehenderit possimus voluptas voluptatibus aspernatur dolorum commodi alias laudantium assumenda? Ullam ducimus enim ipsam distinctio nihil officia quae molestiae qui atque explicabo dolorum saepe provident rerum illo tempora odit, sapiente doloribus! Enim cupiditate possimus error beatae recusandae, repudiandae, accusantium illo asperiores veniam laboriosam qui aperiam amet ullam! Dolores vero alias quae officiis ut quasi quaerat ex libero, modi quod a. Quae sunt laboriosam tempore dolor recusandae assumenda veniam quam explicabo maiores ab accusamus, necessitatibus voluptas quia cum consequuntur laudantium odio atque natus nemo fugit reprehenderit velit, quo porro. Soluta ullam, aspernatur distinctio dignissimos rem beatae accusamus odit ex dicta sequi ut cumque tempore, ab at doloremque voluptate, itaque tenetur aliquid facilis quam. Veniam minima a, illo placeat molestias voluptatum! Fuga numquam veritatis quam mollitia laborum. Voluptatum doloribus tempore corrupti blanditiis ut nulla non nostrum culpa commodi, iure reprehenderit, neque suscipit illum harum minima nam enim officiis officia ullam cumque.</p>
+  </article>
+  <script type="text/javascript">
+    const section = document.querySelector("section");
+    window.addEventListener("scroll", () => {
+      let scrollQuantity = window.scrollY;
+      section.style.clipPath = "circle("+ scrollQuantity +"px at center)";
+    });
+  </script>
+</body>
+</html>
